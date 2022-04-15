@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mixed Messages</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Bershka website clone">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Link to the CSS file-->
+        <link href="./style.css" rel="stylesheet">
+        <!--Roboto font from google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <!--Google Icons-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+
+    <body onload="startDate()">
+        <div id="date"></div>
+            <div id="quoteDisplay">
+                <header>
+                    <span class="material-icons">auto_awesome</span><p>Here you can generate a new motivational message each time you click on the button</p><span class="material-icons">auto_awesome</span>
+                </header>
+            </div>
+            <div class="button">
+                <button onclick="newQuote()">
+                    Click here!
+                </button>
+        </div>
+
+        <script src="./messages.js"></script>
+    </body>
+</html>

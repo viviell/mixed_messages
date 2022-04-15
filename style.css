@@ -1,0 +1,80 @@
+:root {
+    --main-blue: #0015ff;
+}
+
+html {
+    height: 100%;
+    margin: 0;
+}
+
+
+body{
+    font-family: Roboto, sans-serif;
+    font-size: 22px;
+    background: linear-gradient(#e66465, #9198e5);
+}
+
+p {
+    color: var(--main-blue);
+}
+
+button {
+    color: #000;
+    font-size: 1.5rem;
+    background-color: #8a68fb;
+    cursor: pointer;
+    margin: 20px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 5px 7px 7px 0px #fff;
+    padding: 10px 30px;
+    outline: none;
+}
+
+.button:active {
+    box-shadow: 0 5px transparent;
+    transform: translateY(4px);
+}
+
+#quoteDisplay {
+    color: var(--main-blue);
+    display: flex;
+    justify-content: center;
+    margin-top: 270px;
+}
+
+@media only screen and (max-width: 425px) {
+    #quoteDisplay {
+        margin-top: 200px;
+        font-size: 1rem;
+    }
+    button {
+        font-size: 12px;
+    }
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    color: #70ff70;
+}
+
+.material-icons {
+    color: var(--main-blue);
+    position: inherit;
+    margin: 23px 10px 0 10px;
+}
+
+#date {
+    color: #ffafdb;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 15px;
+}
